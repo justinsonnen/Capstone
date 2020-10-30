@@ -1,0 +1,143 @@
+Week 3
+Set up first meeting with the sponsors.
+Still need to get user stories to build backlog with. 
+
+Potential users of the system: 
+employers who want to add large quantitiess of transit users.
+CityGo staff
+
+
+Main goal: User story
+as an employer staff i want to add passes to an employee/staff
+
+secondary goal: User story
+as a citygo admin i want to administer employers.
+
+There is an app already, so we have some functionality done. We might have
+build or own part of that app. 
+
+They need to be able to set up and tear down a subscription.
+
+Languages:
+python3
+mySQL
+angular
+
+tools:
+Docker
+zenhub
+angular material for css front end
+
+tasks:
+set up a zenhub 
+look at API
+look into docker more
+install dependencies
+
+Week 4
+
+Note: The sponsor was not here today, so we couldnt get user stories
+
+Working on scoping on what the employer (user) can do?
+What the database might look like?
+Can we get a multiple tickets in one order?
+How will we set up the accounts? using current accounts? creating new accounts
+from the company?
+How is the company going to input their users?
+What information do we need for the user?
+What kind of pass?
+What can we change to the current code?
+Do we expire the tickets expire as soon as the person is done working?
+
+Work that can be done:
+Getting UI setup.
+Adding login skeleton for both admin and employer.
+Creating schema for database.
+
+Week 5
+
+Need to look into what 3rd party login we are going to use.
+	Google
+	Amazon
+	Auth0
+
+Homework:
+We need add functionality that will allow the employee to upload an excel
+file with all the current employees and allow to find the differences.
+
+start creating schema for database. 
+
+Week 6
+
+Got logins today to the masabi api.
+
+answers from Katie
+Only 31 day passes.
+We are only creating a linear path from the employer to the tickets
+Probably going to start everyone on the same day per employer.
+At some point, we might add functionality to add users that are not already 
+users
+
+
+We did user stories and tasks. then handed out tasks to people.
+
+Week 7
+
+Went around and updated everyone on where we are with tasks. 
+
+Everyone is up to date with what they are doing
+
+We also chose tasks for the next sprint.
+
+Week 8
+
+First we round tabled what we had done in the past week.
+
+We had some discussions on what to use for the database handler.
+I we decided on an orm.
+
+We made a plan to do a demo for city go in the first week of april.
+
+I am going to continue working on a scheduler. I am going to moved towards
+using a cron like 3rd party scheduler to kick off my script.
+
+Week 9
+
+We did a roundtable on what everyone has been working on. 
+
+I was almost finished with my task of getting the nightly job to run.
+I am going to look into adding a bulk adding file for the employer front end
+
+Week 10
+
+First we discussed what we need to do to connect to the masabi API. We are looking for a journyId.
+##This is a question for for masabi that will be handled by Katie
+
+We did a roundtable on what everyone is doing.
+
+While we were doing roundtabe, we also decided on next tasks for the newest 
+sprint.
+
+Everything seems to be running pretty smoothly.
+
+Week 11:
+
+We discussed the demo for next week.
+The plan is to make a video for the demo.
+This is just to give an update on what we have been doing.
+
+We did a roundtable on what everyone is doing.
+For the most part, we planned for the demo.
+
+we are going to demo some mock data to the front end.
+we are going to demo the scheduler.
+we are going to demo everything we can for backend.
+
+week 13:
+
+First we updated Shane and Katie.
+We then went into a roundtable discussing what we did for 
+the week.
+
+Then we sent out new stuff to do.
+
